@@ -1,12 +1,443 @@
+```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emprendimiento</title>
+    <meta name="theme-color" content="#101010">
+    <meta name="description" content="Chops impresos en 3D, diseños originales y personalizados. Encontrá tu próximo chop favorito y pedí el tuyo por WhatsApp.">
+
+    <title>CHOP LAB | Chops impresos en 3D</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+    <!-- ENCABEZADO -->
+    <header class="header">
+        <div class="container navbar">
+
+            <a href="#inicio" class="logo">
+                <span class="logo-icon">🍺</span>
+                <span>CHOP<span class="accent">LAB</span></span>
+            </a>
+
+            <nav class="nav-links" aria-label="Navegación principal">
+                <a href="#inicio">Inicio</a>
+                <a href="#productos">Productos</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#contacto" class="nav-cta">Hablemos ↗</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- PORTADA -->
+        <section class="hero" id="inicio">
+
+            <div class="hero-glow"></div>
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <span class="eyebrow">
+                        <span class="status-dot"></span>
+                        FABRICADOS EN 3D · DISEÑOS ÚNICOS
+                    </span>
+
+                    <h1>
+                        NO ES SOLO<br>
+                        UN CHOP.<br>
+                        <span class="outline-text">ES TU ESTILO.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Diseños que salen de la impresora y llegan directo
+                        a tu colección. Chops con personalidad para quienes
+                        disfrutan cada momento.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#productos" class="btn btn-primary">
+                            VER PRODUCTOS <span>↘</span>
+                        </a>
+
+                        <a href="https://wa.me/541150004608?text=Hola%21%20Quiero%20consultar%20por%20los%20chops%20impresos%20en%203D."
+                           class="btn btn-secondary"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            CONSULTAR POR WHATSAPP
+                        </a>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <strong>3D</strong>
+                            <span>Impresión creativa</span>
+                        </div>
+
+                        <div class="stat-divider"></div>
+
+                        <div class="stat">
+                            <strong>100%</strong>
+                            <span>Pasión por diseñar</span>
+                        </div>
+
+                        <div class="stat-divider"></div>
+
+                        <div class="stat">
+                            <strong>ÚNICO</strong>
+                            <span>Tu próximo favorito</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="hero-visual">
+
+                    <div class="visual-glow"></div>
+
+                    <div class="hero-image-frame">
+                        <img
+                            src="https://images.unsplash.com/photo-1535958636474-b021ee887b13?auto=format&fit=crop&w=1000&q=85"
+                            alt="Cerveza servida en un vaso con espuma"
+                            class="hero-image"
+                        >
+                    </div>
+
+                    <div class="floating-card floating-top">
+                        <span class="floating-icon">⚡</span>
+                        <div>
+                            <strong>DISEÑO 3D</strong>
+                            <small>Creatividad sin límites</small>
+                        </div>
+                    </div>
+
+                    <div class="floating-card floating-bottom">
+                        <span class="floating-icon">🔥</span>
+                        <div>
+                            <strong>HECHO CON PASIÓN</strong>
+                            <small>Detalles que destacan</small>
+                        </div>
+                    </div>
+
+                    <span class="hero-number">01 / 03</span>
+
+                </div>
+
+            </div>
+
+            <div class="hero-bottom-line">
+                <span>CREATIVIDAD</span>
+                <span>DISEÑO</span>
+                <span>TECNOLOGÍA</span>
+                <span>ACTITUD</span>
+            </div>
+
+        </section>
+
+
+        <!-- PRODUCTOS -->
+        <section class="products section-padding" id="productos">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <div>
+                        <span class="eyebrow">NUESTRA COLECCIÓN</span>
+                        <h2>ENCONTRÁ TU <span class="accent">CHOP.</span></h2>
+                    </div>
+
+                    <p>
+                        Piezas con carácter, diseños originales y toda
+                        la magia de la impresión 3D.
+                    </p>
+                </div>
+
+                <div class="product-grid">
+
+                    <!-- PRODUCTO 1 -->
+                    <article class="product-card">
+
+                        <div class="product-image product-image-1">
+                            <span class="product-tag">DESTACADO</span>
+
+                            <img
+                                src="https://images.unsplash.com/photo-1513558161293-cdaf765edfd7?auto=format&fit=crop&w=700&q=85"
+                                alt="Vaso con bebida refrescante"
+                                loading="lazy"
+                            >
+
+                            <span class="product-number">01</span>
+                        </div>
+
+                        <div class="product-info">
+                            <span class="product-category">DISEÑO CLÁSICO</span>
+                            <h3>Chop Clásico</h3>
+
+                            <p>
+                                Un estilo que nunca falla para disfrutar
+                                una buena juntada.
+                            </p>
+
+                            <a href="https://wa.me/541150004608?text=Hola%21%20Quiero%20consultar%20por%20el%20Chop%20Cl%C3%A1sico."
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="product-link">
+                                CONSULTAR PRECIO <span>↗</span>
+                            </a>
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUCTO 2 -->
+                    <article class="product-card">
+
+                        <div class="product-image product-image-2">
+                            <span class="product-tag tag-orange">PERSONALIZABLE</span>
+
+                            <img
+                                src="https://images.unsplash.com/photo-1575023782549-62ca0d244b39?auto=format&fit=crop&w=700&q=85"
+                                alt="Vaso de cerveza con espuma"
+                                loading="lazy"
+                            >
+
+                            <span class="product-number">02</span>
+                        </div>
+
+                        <div class="product-info">
+                            <span class="product-category">TU IDEA, EN 3D</span>
+                            <h3>Chop Personalizado</h3>
+
+                            <p>
+                                Consultanos por diseños, colores y opciones
+                                para darle tu propio estilo.
+                            </p>
+
+                            <a href="https://wa.me/541150004608?text=Hola%21%20Quiero%20consultar%20por%20un%20chop%20personalizado."
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="product-link">
+                                CREAR EL MÍO <span>↗</span>
+                            </a>
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUCTO 3 -->
+                    <article class="product-card">
+
+                        <div class="product-image product-image-3">
+                            <span class="product-tag">PARA REGALAR</span>
+
+                            <img
+                                src="https://images.unsplash.com/photo-1532634896-26909d0d4b64?auto=format&fit=crop&w=700&q=85"
+                                alt="Bebida presentada para compartir"
+                                loading="lazy"
+                            >
+
+                            <span class="product-number">03</span>
+                        </div>
+
+                        <div class="product-info">
+                            <span class="product-category">REGALOS ORIGINALES</span>
+                            <h3>Chop Coleccionable</h3>
+
+                            <p>
+                                Una idea diferente para sorprender a tus
+                                amigos o sumar a tu colección.
+                            </p>
+
+                            <a href="https://wa.me/541150004608?text=Hola%21%20Quiero%20ver%20opciones%20de%20chops%20coleccionables."
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="product-link">
+                                VER OPCIONES <span>↗</span>
+                            </a>
+                        </div>
+
+                    </article>
+
+                </div>
+
+                <div class="products-note">
+                    <span class="note-icon">✳</span>
+                    <p>
+                        ¿Tenés una idea en mente? Escribinos y consultá
+                        por las posibilidades de fabricación.
+                    </p>
+
+                    <a href="https://wa.me/541150004608?text=Hola%21%20Tengo%20una%20idea%20para%20un%20chop%20impreso%20en%203D."
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        CONTANOS TU IDEA ↗
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- DIFERENCIAL -->
+        <section class="features section-padding" id="nosotros">
+
+            <div class="container">
+
+                <div class="features-header">
+                    <span class="eyebrow">MÁS QUE UNA IMPRESIÓN</span>
+
+                    <h2>
+                        CREAMOS IDEAS.<br>
+                        <span class="accent">IMPRIMIMOS PERSONALIDAD.</span>
+                    </h2>
+
+                    <p>
+                        Cada proyecto empieza con una idea y termina
+                        convertido en algo que podés tener en tus manos.
+                        Esa es la esencia de CHOP LAB.
+                    </p>
+                </div>
+
+                <div class="features-grid">
+
+                    <div class="feature-item">
+                        <span class="feature-icon">◈</span>
+                        <h3>DISEÑO ORIGINAL</h3>
+                        <p>
+                            Productos con identidad propia para quienes
+                            buscan algo diferente.
+                        </p>
+                    </div>
+
+                    <div class="feature-item">
+                        <span class="feature-icon">⌘</span>
+                        <h3>TECNOLOGÍA 3D</h3>
+                        <p>
+                            Transformamos modelos digitales en objetos
+                            físicos mediante impresión 3D.
+                        </p>
+                    </div>
+
+                    <div class="feature-item">
+                        <span class="feature-icon">✳</span>
+                        <h3>ATENCIÓN PERSONALIZADA</h3>
+                        <p>
+                            Hablamos directamente con vos para ayudarte
+                            a encontrar el diseño que buscás.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- LLAMADO A LA ACCIÓN -->
+        <section class="contact-section" id="contacto">
+
+            <div class="contact-glow"></div>
+
+            <div class="container contact-content">
+
+                <span class="eyebrow">TU PRÓXIMA IDEA EMPIEZA ACÁ</span>
+
+                <h2>
+                    ¿LO IMAGINÁS?<br>
+                    <span class="accent">LO HACEMOS REALIDAD.</span>
+                </h2>
+
+                <p>
+                    Consultá por modelos, colores, personalizaciones
+                    y disponibilidad. Estamos a un mensaje de distancia.
+                </p>
+
+                <a href="https://wa.me/541150004608?text=Hola%21%20Quiero%20informaci%C3%B3n%20sobre%20los%20chops%20impresos%20en%203D."
+                   class="btn btn-primary btn-large"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    <svg viewBox="0 0 24 24"
+                         aria-hidden="true"
+                         class="whatsapp-icon">
+                        <path d="M20.52 3.48A11.86 11.86 0 0 0 12.08 0C5.5 0 .15 5.35.15 11.93c0 2.1.55 4.15 1.6 5.96L0 24l6.27-1.64a11.92 11.92 0 0 0 5.8 1.48h.01C18.65 23.84 24 18.5 24 11.92a11.85 11.85 0 0 0-3.48-8.44ZM12.08 21.8a9.9 9.9 0 0 1-5.04-1.38l-.36-.21-3.72.98.99-3.63-.24-.37a9.84 9.84 0 0 1-1.52-5.26c0-5.47 4.45-9.92 9.91-9.92a9.86 9.86 0 0 1 7.02 2.91 9.85 9.85 0 0 1 2.9 7.02c0 5.46-4.45 9.91-9.92 9.91Zm5.44-7.42c-.3-.15-1.77-.87-2.05-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.47-.9-.8-1.5-1.78-1.67-2.08-.18-.3-.02-.46.13-.61.14-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.67-1.62-.92-2.22-.24-.58-.48-.5-.67-.5h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.21 5.1 4.5.71.3 1.27.49 1.7.63.71.22 1.36.19 1.87.11.57-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35Z"/>
+                    </svg>
+
+                    ESCRIBINOS POR WHATSAPP
+                    <span>↗</span>
+                </a>
+
+                <span class="contact-number">+54 11 5000-4608</span>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-main">
+
+                <a href="#inicio" class="logo footer-logo">
+                    <span class="logo-icon">🍺</span>
+                    <span>CHOP<span class="accent">LAB</span></span>
+                </a>
+
+                <p class="footer-motto">
+                    "Los grandes proyectos nacen de una idea,
+                    crecen con esfuerzo y se hacen realidad
+                    cuando nunca dejás de crear."
+                </p>
+
+                <a href="#inicio" class="back-to-top" aria-label="Volver al inicio">
+                    ↑
+                </a>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 CHOP LAB · Todos los derechos reservados.</p>
+                <p>HECHO CON PASIÓN, DISEÑADO EN 3D. <span class="accent">✳</span></p>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- BOTÓN FLOTANTE DE WHATSAPP -->
+    <a
+        href="https://wa.me/541150004608?text=Hola%21%20Quiero%20consultar%20por%20los%20chops%20impresos%20en%203D."
+        class="whatsapp-float"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Contactar por WhatsApp"
+        title="¡Hablemos por WhatsApp!">
+
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+            <path d="M16 .5C7.45.5.5 7.45.5 16c0 2.73.72 5.4 2.09 7.75L.5 31.5l7.96-2.08A15.43 15.43 0 0 0 16 31.5c8.55 0 15.5-6.95 15.5-15.5S24.55.5 16 .5Zm0 28.17c-2.36 0-4.67-.64-6.68-1.85l-.48-.29-4.73 1.24 1.26-4.61-.31-.5A12.63 12.63 0 0 1 3.12 16C3.12 8.9 8.9 3.12 16 3.12S28.88 8.9 28.88 16 23.1 28.67 16 28.67Zm6.93-9.46c-.38-.19-2.23-1.1-2.58-1.22-.35-.13-.6-.19-.85.19-.26.38-.98 1.22-1.2 1.47-.22.26-.44.29-.82.1-.38-.19-1.6-.59-3.04-1.88-1.12-1-1.88-2.24-2.1-2.62-.22-.38-.02-.58.17-.77.17-.17.38-.44.57-.66.19-.22.25-.38.38-.64.13-.25.06-.48-.03-.67-.1-.19-.85-2.05-1.16-2.81-.3-.73-.62-.63-.85-.64h-.73c-.25 0-.67.1-1.02.48-.35.38-1.34 1.31-1.34 3.2s1.37 3.71 1.56 3.96c.19.26 2.7 4.12 6.54 5.78.91.39 1.62.62 2.18.8.92.29 1.75.25 2.41.15.74-.11 2.23-.92 2.55-1.82.32-.89.32-1.66.22-1.82-.1-.16-.35-.25-.73-.44Z"/>
+        </svg>
+
+    </a>
+
 </body>
 </html>
+```
